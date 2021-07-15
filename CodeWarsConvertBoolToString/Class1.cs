@@ -37,7 +37,17 @@ namespace CodeWarsConvertBoolToString
         {
             public static string boolToWord(bool word)
             {
-                //TODO
+                return word ? "Yes" : "No";
+                //if (word == true)
+                //{
+                //    return "Yes";
+                //}
+                //else
+                //{
+                //    return "No";
+                //}
+               
+
             }
         }
     }
